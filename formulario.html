@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>formulario de opsiones</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>opciones</h1>
+<form action="#" method="POST">
+ 	<label for="">menor de edad</label><br>
+	 <input type="radio" name="menor de edad" value="x">Si
+		<br>
+		<input type="radio" name="menor de edad" value="y">No
+		<br><br>
+		<label for="">Deportes favoritos</label><br>
+		<input type="checkbox" name="deportes_favoritos" value="bicicross">Bicicross <br>
+		<input type="checkbox" name="deportes_favoritos" value="baloncesto" > Baloncesto
+</form>
+<h2>iniciar sesión</h2>
+<form>
+	<input type="email" placeholder="tu_correo@electronico" required/> <br><br>
+	<input type="password" name="contraseña" placeholder ="contraseña" required/>
+</form>
+<h2>Formulario de registro</h2>
+<form>
+	<label>Documento*</label><br>
+	<select name="documento">
+		<option value="cedula">CC</option>
+		<option value="terjeta">TI</option>
+		<option value="registro">RC</option>
+		<option value="extrangeria">CE</option> <br>
+		<option value="Primer Nombre"></option>
+	</select> 
+	<input tipy="number" name="numero" placeholder="No. Documento" required><br><br>
+	<label>Lugar de expedición*</label><br>
+		<input tipy="text" name="expedicion" placeholder="Lugar de expedicion" required><br><br>
+		<label>Primer Nombre*</label><br>
+		<input tipy="text" name="nombre" placeholder="Primer Nombre" required><br><br>
+		<label>Segundo Nombre*</label><br>
+		<input tipy="text" name="nombre" placeholder="Segundo Nombre" required><br><br>
+		<label>Primer Apellido*</label><br>
+		<input tipy="text" name="apellido" placeholder="Primer Apellido" required><br><br>
+		<label>Sugundo Apellido*</label><br>
+		<input tipy="text" name="apellido" placeholder="Segundo Apellido" required><br><br>
+		<label>Fecha de Nacimiento*</label><br>
+		<input type="number" name="dia" placeholder="Dia" size="10%">
+	<select name="fecha de nacimiento">
+		<option value="">Enero</option>
+		<option value="">FebreroTI</option>
+		<option value="">Marzo</option>
+		<option value="">Abril</option>
+		<option value="P">Mayo</option>
+		<option value="">JUnio</option>
+		<option value="">Julio</option>
+		<option value="">Agosto</option>
+		<option value="">Septiempre</option>
+		<option value="">Octubre</option>
+		<option value="">Noviemre</option>
+		<option value="">Diciemre</option>
+	</select> 
+	<input type="number" name="ano" placeholder="Año" size="4%"><br><br>
+	<label>Lugar de nacimiento*</label><br>
+		<input tipy="text" name="lugar" placeholder="Lugar de nacimiente" required><br><br>
+	<label>Número móvil*</label><br>
+		<input tipy="number" name="" placeholder="Número Móvil" required><br><br>
+		<label>Correo electronico*</label><br>
+		<input tipy="email" name="correo" placeholder="Correo electronico" required><br><br>
+		<label>Número móvil*</label><br>
+		<input tipy="text" name="numero" placeholder="Número Móvil" required><br><br>
+		<input type="submit" value="Registrarme">
+		<input type="reset" value="Cancelar">
+		<br><br>
+		<label>Dirección*</label><br>
+		<input tipy="number" name="" placeholder="Dirección" required><br><br>
+		<label>Clave (minimo 4 - máximo 6)*</label><br>
+		<input tipy="number" name="clave" placeholder="clave" required>
+		<input tipy="number" name="condirmar" placeholder="Confirmarmar clave"><br><br>
+		<input type="submit" value="Registrarme">
+		<input type="reset" value="Cancelar">
+
+</form>
+<form>
+<h2>Formulario de Contácto</h2>
+	<label>Nombre</label>
+		<input tipy="text" name="nombre" placeholder="nombre" required>
+		<br><br>
+		<label>Apellidos</label>
+		<input tipy="text" name="nombre" placeholder="Apellidos" required>
+		<br><br>
+		<label>Telefono:</label>
+		<input tipy="number" name="numero" placeholder="Telefono" required>
+		<br><br>
+		<label>E-mail:</label>
+		<input tipy="imail" name="correo" placeholder="tu@correo.com" required>
+		<br><br>
+		<label>Mensaje:</label>
+		<textarea cols="30" rows="8" placeholder="Ingrese un mensaje (opcional)"></textarea>
+		<br><br>
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Borrar">
+
+</form>
+	
+</body>
+</html>
