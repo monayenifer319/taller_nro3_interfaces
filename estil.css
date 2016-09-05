@@ -1,0 +1,18 @@
+body{
+	 background-color:pink;
+}
+h1{
+	color:green;
+	background-color: red;
+	font-size: 90%;
+}
+p{
+	background-color: yellow;
+	color: red;
+}
+
+a{
+	background:blue;
+	color:white;
+
+}
